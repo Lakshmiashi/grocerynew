@@ -1,0 +1,6 @@
+testCases\BaseClass.class
+testCases\ManageNewsTest.class
+testCases\LoginPageTest.class
+testCases\ManageContactTest.class
+constant\Constant.class
+testCases\SubCategoryTest.class

@@ -1,0 +1,12 @@
+elementRepository\LoginPage.class
+elementRepository\HomePage.class
+utilities\ScreenShotCapture.class
+utilities\RetryListener.class
+utilities\ExcelUtility.class
+utilities\ExtenetReport.class
+elementRepository\SubCategory.class
+elementRepository\ManageContact.class
+utilities\GeneralUtilities.class
+elementRepository\ManageNews.class
+utilities\Retry.class
+utilities\WaitUtility.class

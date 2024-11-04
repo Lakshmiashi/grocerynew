@@ -1,0 +1,27 @@
+<suite name="GroceryApplication" parallel="tests" thread-count="2"> <!--
+	parallel="methods"/"classes" tests,method,classes can run-->
+	<test name="chromeTest">
+		<listeners>
+			<listener class-name="utilities.ExtenetReport"></listener>
+			<listener class-name="utilities.RetryListener"></listener>
+		</listeners>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testCases.LoginPageTest"></class>
+			<class name="testCases.SubCategoryTest"></class>
+		</classes>
+	</test>
+	<test name="firefoxTest">
+		<listeners>
+			<listener class-name="utilities.ExtenetReport"></listener>
+			<listener class-name="utilities.RetryListener"></listener>
+		</listeners>
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="testCases.LoginPageTest"></class>
+			<class name="testCases.SubCategoryTest"></class>
+		</classes>
+	</test>
+
+
+</suite>
