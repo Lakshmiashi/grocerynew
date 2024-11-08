@@ -22,7 +22,6 @@ public class LoginPageTest extends BaseClass {
   public void verifyLoginWithValidCredentials() throws IOException{
 	  
 	lp=new LoginPage(driver);
-	//hp=new HomePage(driver);
 	String userName=loginData(3,1);
 	String password=loginData(4,1);
 	System.out.println(userName+ password);
