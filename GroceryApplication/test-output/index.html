@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,8 +21,7 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -51,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-GroceryApplication" class="navigator-link ">
-                    <span>C:\Users\ASUS\git\grocery\GroceryApplication\SmokeTest.xml</span>
+                    <span>C:\Users\ASUS\git\grocerynew\GroceryApplication\testNewTestCase.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -134,7 +133,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GroceryApplication" title="testCases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginWithInValidCredentials(abcd, abcde)">verifyLoginWithInValidCredentials(abcd, abcde)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-GroceryApplication" title="testCases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginWithInValidCredentials(admin, adm)">verifyLoginWithInValidCredentials(admin, adm)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -144,7 +143,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GroceryApplication" title="testCases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginWithInValidCredentials(admin, adm)">verifyLoginWithInValidCredentials(admin, adm)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-GroceryApplication" title="testCases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginWithInValidCredentials(abcd, abcde)">verifyLoginWithInValidCredentials(abcd, abcde)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -182,21 +181,38 @@
           <div class="suite-GroceryApplication-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.ManageContactTest</span>
+              <span class="class-name">testCases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyContact">
-                  </a> <!-- verifyContact -->
-                  <span class="method-name">verifyContact</span>
+                  <a name="verifyLoginWithInValidCredentials(admin, adm)">
+                  </a> <!-- verifyLoginWithInValidCredentials(admin, adm) -->
+                  <span class="method-name">verifyLoginWithInValidCredentials</span>
+                  <span class="parameters">(admin,adm)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyContactReset">
-                  </a> <!-- verifyContactReset -->
-                  <span class="method-name">verifyContactReset</span>
+                  <a name="verifyLoginWithInValidCredentials(abcd, admin)">
+                  </a> <!-- verifyLoginWithInValidCredentials(abcd, admin) -->
+                  <span class="method-name">verifyLoginWithInValidCredentials</span>
+                  <span class="parameters">(abcd,admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInValidCredentials(abcd, abcde)">
+                  </a> <!-- verifyLoginWithInValidCredentials(abcd, abcde) -->
+                  <span class="method-name">verifyLoginWithInValidCredentials</span>
+                  <span class="parameters">(abcd,abcde)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials">
+                  </a> <!-- verifyLoginWithValidCredentials -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -247,45 +263,6 @@
           <div class="suite-GroceryApplication-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.LoginPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginWithInValidCredentials(abcd, abcde)">
-                  </a> <!-- verifyLoginWithInValidCredentials(abcd, abcde) -->
-                  <span class="method-name">verifyLoginWithInValidCredentials</span>
-                  <span class="parameters">(abcd, abcde)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginWithInValidCredentials(abcd, admin)">
-                  </a> <!-- verifyLoginWithInValidCredentials(abcd, admin) -->
-                  <span class="method-name">verifyLoginWithInValidCredentials</span>
-                  <span class="parameters">(abcd, admin)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginWithInValidCredentials(admin, adm)">
-                  </a> <!-- verifyLoginWithInValidCredentials(admin, adm) -->
-                  <span class="method-name">verifyLoginWithInValidCredentials</span>
-                  <span class="parameters">(admin, adm)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginWithValidCredentials">
-                  </a> <!-- verifyLoginWithValidCredentials -->
-                  <span class="method-name">verifyLoginWithValidCredentials</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GroceryApplication-class-passed -->
-          <div class="suite-GroceryApplication-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testCases.ManageNewsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -305,21 +282,43 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-GroceryApplication-class-passed -->
+          <div class="suite-GroceryApplication-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ManageContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContact">
+                  </a> <!-- verifyContact -->
+                  <span class="method-name">verifyContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactReset">
+                  </a> <!-- verifyContactReset -->
+                  <span class="method-name">verifyContactReset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GroceryApplication-class-passed -->
         </div> <!-- panel GroceryApplication -->
         <div panel-name="test-xml-GroceryApplication" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ASUS\git\grocery\GroceryApplication\SmokeTest.xml</span>
+            <span class="header-content">C:\Users\ASUS\git\grocerynew\GroceryApplication\testNewTestCase.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;GroceryApplication&quot;&gt;
+&lt;suite name=&quot;GroceryApplication&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;utilities.ExtenetReport&quot;/&gt;
-    &lt;listener class-name=&quot;utilities.RetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.ExtenetReport&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.RetryListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;chromeTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;chromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.LoginPageTest&quot;/&gt;
@@ -369,60 +368,60 @@ data.addRows(13);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyContact')
 data.setCell(0, 2, 'testCases.ManageContactTest')
-data.setCell(0, 3, 5530);
+data.setCell(0, 3, 5194);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyAddNews')
-data.setCell(1, 2, 'testCases.ManageNewsTest')
-data.setCell(1, 3, 4735);
+data.setCell(1, 1, 'verifyAddNewItem')
+data.setCell(1, 2, 'testCases.SubCategoryTest')
+data.setCell(1, 3, 3595);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyAddNewItem')
-data.setCell(2, 2, 'testCases.SubCategoryTest')
-data.setCell(2, 3, 4059);
+data.setCell(2, 1, 'verifyLoginWithValidCredentials')
+data.setCell(2, 2, 'testCases.LoginPageTest')
+data.setCell(2, 3, 2921);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyDeleteItem')
-data.setCell(3, 2, 'testCases.SubCategoryTest')
-data.setCell(3, 3, 3034);
+data.setCell(3, 1, 'verifyAddNews')
+data.setCell(3, 2, 'testCases.ManageNewsTest')
+data.setCell(3, 3, 2827);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifySubcategory')
+data.setCell(4, 1, 'verifyDeleteItem')
 data.setCell(4, 2, 'testCases.SubCategoryTest')
-data.setCell(4, 3, 2695);
+data.setCell(4, 3, 2718);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyInvalidSearch')
+data.setCell(5, 1, 'verifySubcategory')
 data.setCell(5, 2, 'testCases.SubCategoryTest')
-data.setCell(5, 3, 2603);
+data.setCell(5, 3, 2465);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyValidSearch')
+data.setCell(6, 1, 'verifyInvalidSearch')
 data.setCell(6, 2, 'testCases.SubCategoryTest')
-data.setCell(6, 3, 2533);
+data.setCell(6, 3, 2214);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyContactReset')
 data.setCell(7, 2, 'testCases.ManageContactTest')
-data.setCell(7, 3, 2523);
+data.setCell(7, 3, 2194);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifySearchNews')
-data.setCell(8, 2, 'testCases.ManageNewsTest')
-data.setCell(8, 3, 2386);
+data.setCell(8, 1, 'verifyValidSearch')
+data.setCell(8, 2, 'testCases.SubCategoryTest')
+data.setCell(8, 3, 2172);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyLoginWithValidCredentials')
-data.setCell(9, 2, 'testCases.LoginPageTest')
-data.setCell(9, 3, 1390);
+data.setCell(9, 1, 'verifySearchNews')
+data.setCell(9, 2, 'testCases.ManageNewsTest')
+data.setCell(9, 3, 2005);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'verifyLoginWithInValidCredentials')
 data.setCell(10, 2, 'testCases.LoginPageTest')
-data.setCell(10, 3, 796);
+data.setCell(10, 3, 631);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'verifyLoginWithInValidCredentials')
 data.setCell(11, 2, 'testCases.LoginPageTest')
-data.setCell(11, 3, 647);
+data.setCell(11, 3, 560);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'verifyLoginWithInValidCredentials')
 data.setCell(12, 2, 'testCases.LoginPageTest')
-data.setCell(12, 3, 630);
+data.setCell(12, 3, 505);
 window.suiteTableData['GroceryApplication']= { tableData: data, tableDiv: 'times-div-GroceryApplication'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-GroceryApplication">
               </div> <!-- times-div-GroceryApplication -->
             </div> <!-- times-div -->
@@ -448,180 +447,171 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.ManageNewsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAddNews</span>
-                <span class="method-start">7017 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=verifyAddNews status=SUCCESS method=ManageNewsTest.verifyAddNews()[pri:0, instance:...)</span>
-                <span class="method-start">11783 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">12085 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifySearchNews</span>
-                <span class="method-start">16419 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=verifySearchNews status=SUCCESS method=ManageNewsTest.verifySearchNews()[pri:0, ins...)</span>
-                <span class="method-start">18815 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.ManageContactTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">19184 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyContact</span>
-                <span class="method-start">24168 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=verifyContact status=SUCCESS method=ManageContactTest.verifyContact()[pri:1, instan...)</span>
-                <span class="method-start">29700 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.LoginPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">30019 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <span class="method-name">verifyLoginWithValidCredentials</span>
-                <span class="method-start">34530 ms</span>
+                <span class="method-start">6458 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethode([TestResult name=verifyLoginWithValidCredentials status=SUCCESS method=LoginPageTest.verifyLoginWith...)</span>
-                <span class="method-start">35923 ms</span>
+                <span class="method-start">9401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">9626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInValidCredentials(admin, adm)</span>
+                <span class="method-start">12573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethode([TestResult name=verifyLoginWithInValidCredentials status=SUCCESS method=LoginPageTest.verifyLoginWi...)</span>
+                <span class="method-start">13089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">13238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInValidCredentials(abcd, admin)</span>
+                <span class="method-start">16059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethode([TestResult name=verifyLoginWithInValidCredentials status=SUCCESS method=LoginPageTest.verifyLoginWi...)</span>
+                <span class="method-start">16691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">16853 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInValidCredentials(abcd, abcde)</span>
+                <span class="method-start">19778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethode([TestResult name=verifyLoginWithInValidCredentials status=SUCCESS method=LoginPageTest.verifyLoginWi...)</span>
+                <span class="method-start">20341 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.SubCategoryTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">36132 ms</span>
+                <span class="method-start">20524 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySubcategory</span>
-                <span class="method-start">40380 ms</span>
+                <span class="method-start">23990 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethode([TestResult name=verifySubcategory status=SUCCESS method=SubCategoryTest.verifySubcategory()[pri:1, ...)</span>
-                <span class="method-start">43078 ms</span>
+                <span class="method-start">26459 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">43295 ms</span>
+                <span class="method-start">26656 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAddNewItem</span>
-                <span class="method-start">46478 ms</span>
+                <span class="method-start">29598 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethode([TestResult name=verifyAddNewItem status=SUCCESS method=SubCategoryTest.verifyAddNewItem()[pri:2, in...)</span>
-                <span class="method-start">50538 ms</span>
+                <span class="method-start">33194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">33369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidSearch</span>
+                <span class="method-start">36465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethode([TestResult name=verifyValidSearch status=SUCCESS method=SubCategoryTest.verifyValidSearch()[pri:3, ...)</span>
+                <span class="method-start">38641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">38829 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidSearch</span>
+                <span class="method-start">41723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethode([TestResult name=verifyInvalidSearch status=SUCCESS method=SubCategoryTest.verifyInvalidSearch()[pri...)</span>
+                <span class="method-start">43944 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">44139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteItem</span>
+                <span class="method-start">47156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethode([TestResult name=verifyDeleteItem status=SUCCESS method=SubCategoryTest.verifyDeleteItem()[pri:5, in...)</span>
+                <span class="method-start">49875 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ManageNewsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">50027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddNews</span>
+                <span class="method-start">52956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethode([TestResult name=verifyAddNews status=SUCCESS method=ManageNewsTest.verifyAddNews()[pri:0, instance:...)</span>
+                <span class="method-start">55784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">55977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchNews</span>
+                <span class="method-start">58799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethode([TestResult name=verifySearchNews status=SUCCESS method=ManageNewsTest.verifySearchNews()[pri:0, ins...)</span>
+                <span class="method-start">60805 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.ManageContactTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">50740 ms</span>
+                <span class="method-start">60996 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContact</span>
+                <span class="method-start">63835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethode([TestResult name=verifyContact status=SUCCESS method=ManageContactTest.verifyContact()[pri:1, instan...)</span>
+                <span class="method-start">69029 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">69211 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContactReset</span>
-                <span class="method-start">54705 ms</span>
+                <span class="method-start">72171 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethode([TestResult name=verifyContactReset status=SUCCESS method=ManageContactTest.verifyContactReset()[pri...)</span>
-                <span class="method-start">57230 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.LoginPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">57591 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginWithInValidCredentials(admin, adm)</span>
-                <span class="method-start">60719 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=verifyLoginWithInValidCredentials status=SUCCESS method=LoginPageTest.verifyLoginWi...)</span>
-                <span class="method-start">61516 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">61874 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginWithInValidCredentials(abcd, admin)</span>
-                <span class="method-start">66340 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=verifyLoginWithInValidCredentials status=SUCCESS method=LoginPageTest.verifyLoginWi...)</span>
-                <span class="method-start">66971 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">67241 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginWithInValidCredentials(abcd, abcde)</span>
-                <span class="method-start">70771 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=verifyLoginWithInValidCredentials status=SUCCESS method=LoginPageTest.verifyLoginWi...)</span>
-                <span class="method-start">71419 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.SubCategoryTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">71611 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyValidSearch</span>
-                <span class="method-start">74920 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=verifyValidSearch status=SUCCESS method=SubCategoryTest.verifyValidSearch()[pri:3, ...)</span>
-                <span class="method-start">77460 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">77842 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyInvalidSearch</span>
-                <span class="method-start">81443 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=verifyInvalidSearch status=SUCCESS method=SubCategoryTest.verifyInvalidSearch()[pri...)</span>
-                <span class="method-start">84054 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">84336 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyDeleteItem</span>
-                <span class="method-start">88891 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=verifyDeleteItem status=SUCCESS method=SubCategoryTest.verifyDeleteItem()[pri:5, in...)</span>
-                <span class="method-start">91926 ms</span>
+                <span class="method-start">74368 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

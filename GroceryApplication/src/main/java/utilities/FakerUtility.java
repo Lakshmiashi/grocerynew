@@ -3,6 +3,7 @@ package utilities;
 import com.github.javafaker.Faker;
 
 public class FakerUtility {
+	
 	 Faker faker = new Faker();
 
     // Method to generate a fake name
@@ -29,6 +30,10 @@ public class FakerUtility {
     public  int generateRandomNumber() {
     	return faker.number().randomDigit();
     }
-
+public static void main(String args[])
+{
+	FakerUtility obj =new FakerUtility();
+	System.out.println(obj.generateEmail());  
+}
    
 }
